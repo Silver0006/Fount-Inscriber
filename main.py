@@ -2,7 +2,7 @@ import keyboard, pystray, threading, random, msvcrt
 from PIL import Image
 from playsound import playsound
 
-image = Image.open(r"D:\Python\Fount-Inscriber\Untitled.jpg")
+image = Image.open(r"D:\Python\Fount-Inscriber\icon.png")
 
 
 def after_click(icon, query):
